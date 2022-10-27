@@ -1,7 +1,7 @@
 // Code credits goes to Ratul167
 
 
-  async function getapi(){
+  async function getapi("Get"){
     const url ="https://zenquotes.io/api/random";
     const response = await fetch(url);
     let  data = await response.json();
