@@ -1,0 +1,129 @@
+/* Code credits goes to Ratul167 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Poppins:ital,wght@1,200&family=Roboto:ital,wght@1,100;1,300&family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+body{
+  width: 100%;
+  height: 100vh;
+  animation: opanimation 10s linear infinite;
+  display: grid;
+  place-items: center;
+
+  }
+
+  h1{
+    font-family: 'Open Sans', sans-serif;
+  }
+@keyframes opanimation {
+  0%{
+    background-color: #9c27b0;
+  }
+  20%{
+    background-color: #009688;
+  }
+  40%{
+    background-color: #2196f9;
+  }
+  60%{
+    background-color: #ff5722;
+  }
+  80%{
+    background-color: chartreuse;
+  }
+  100%{
+    background-color: #9c27b0;
+  }
+
+}
+
+.helpolovhffajfjshg{
+  
+   height: 55%;
+   width: 55%;
+   background-color: aliceblue;
+   
+   
+
+   border-radius: 20px;
+
+
+}
+.choppp{
+  display: flex;
+}
+.put{
+  height: 20rem;
+  width: 40rem;
+  
+}
+button{
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #5372F0;
+  float: right;
+  font-family: 'Ubuntu', sans-serif;
+  
+  
+  display: flex;
+  justify-content: right;
+  
+
+  margin: 2rem;
+  margin-bottom: 1.5rem;
+  
+  
+
+}
+
+h1{
+  color: #202842;
+  text-align: center;
+
+}
+#op{
+  margin: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+.author{
+  
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+@media only screen and (max-width: 600px) {
+  .helpolovhffajfjshg{
+  
+    height: 60%;
+    width: 60%;
+    background-color: aliceblue;
+    
+    
+ 
+    border-radius: 20px;
+ 
+ 
+ }
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.cred{
+  color: #fff;
+
+}
